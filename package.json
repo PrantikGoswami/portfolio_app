@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build_prod": "ng build --output-path docs --base-href https://PrantikGoswami.github.io/portfolio_app/",
+    "build_prod": "ng build --output-path docs --base-href https://prantikgoswami.github.io/portfolio_app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "gh-pages -d docs"
