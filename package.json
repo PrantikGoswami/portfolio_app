@@ -7,9 +7,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build_prod": "ng build --output-path docs --base-href portfolio_app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d dist/portfolio_app"
+    "deploy": "gh-pages -d docs"
   },
   "private": true,
   "dependencies": {
