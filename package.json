@@ -1,5 +1,5 @@
 {
-  "homepage": "http://prantikgoswami.github.io/portfolio_app",
+  "homepage": "https://prantikgoswami.github.io/portfolio_app",
   "name": "portfolio_app",
   "version": "1.0.0",
   "description": "my portfolio app",
@@ -8,10 +8,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build_prod": "ng build --output-path docs --base-href https://prantikgoswami.github.io/portfolio_app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "ng build --output-path docs",
+    "predeploy": "ng build --output-path docs --base-href https://prantikgoswami.github.io/portfolio_app/",
     "deploy": "gh-pages -d docs"
   },
   "private": true,
