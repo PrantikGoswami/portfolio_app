@@ -1,4 +1,5 @@
 {
+  "homepage": "http://prantikgoswami.github.io/portfolio_app",
   "name": "portfolio_app",
   "version": "1.0.0",
   "description": "my portfolio app",
@@ -10,6 +11,7 @@
     "build_prod": "ng build --output-path docs --base-href https://prantikgoswami.github.io/portfolio_app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "predeploy": "ng build --output-path docs",
     "deploy": "gh-pages -d docs"
   },
   "private": true,
@@ -50,6 +52,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PrantikGoswami/portfolio_app/issues"
-  },
-  "homepage": "https://prantikgoswami.github.io/portfolio_app"
+  }
 }
