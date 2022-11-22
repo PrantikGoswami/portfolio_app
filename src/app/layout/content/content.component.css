@@ -6,13 +6,13 @@
   margin-bottom: 1em;
 }
 
-.content-link a {
+/* .content-link a {
   margin-right: 16px;
 }
 
 .content-link a img {
   margin-right: 8px;
-}
+} */
 
 .content-image {
   margin: 0 0 0 60px;
@@ -30,3 +30,55 @@
     margin: 24px 0 0;
   }
 }
+
+.ant-card{
+  margin: 10px 50px 10px 50px;
+}
+
+nz-descriptions-item {
+  margin: 1px 5px 1px 5px;
+}
+
+nz-descriptions {
+  margin-bottom: 10px;
+}
+
+/* [nz-carousel-content] {
+  text-align: center;
+  height: 160px;
+  line-height: 10px;
+  background: #aac1eb;
+  color: rgb(39, 93, 138);
+  overflow: hidden;
+} */
+
+/* .ant-carousel li.slick-dots button{
+  color: red;
+  background: red;
+} */
+
+/* nz-carousel ul.slick-dots li button{
+  background: green;
+} */
+
+/* nz-carousel ul.slick-dots li.slick-active button{
+  background: red;
+  opacity: 1;
+} */
+
+/* .ant-carousel .slick-dots li.slick-active button {
+  background: #f0f;
+  opacity: 1;
+}
+
+.ant-carousel .slick-dots li button{
+  background: #f0f;
+}
+
+.ant-carousel div.slick-list{
+  height: auto;
+}
+
+.ant-carousel div.slick-list div.slick-track {
+  height: auto;
+} */
