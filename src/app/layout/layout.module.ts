@@ -1,4 +1,5 @@
 import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 import { NgZorroAntdModule } from "../ng-zorro-module";
 import { ContentComponent } from "./content/content.component";
 import { FooterComponent } from "./footer/footer.component";
@@ -13,7 +14,8 @@ import { LayoutComponent } from "./layout.component";
     FooterComponent
   ],
   imports: [
-    NgZorroAntdModule
+    NgZorroAntdModule,
+    BrowserModule
   ],
   exports: [
     LayoutComponent
